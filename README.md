@@ -32,6 +32,19 @@ To create the RKE cluster with the three VMs:
 3. Run rke up cluster.yml to create the RKE cluster
 4. After running the rke up command, you should have a new RKE cluster with the three Libvirt VMs as nodes.
 
+Caveats:
+
+1. There is no CNI specified in the RKE cluster.yml file, I did this on purpose. If you need a fun CNI to install checkout Kube-Router https://github.com/cloudnativelabs/kube-router
+
+2. I ran into a few issues with the libvirt provider, here are the links to those issues (If you run into any).
+
+https://github.com/simon3z/virt-deploy/issues/8#issuecomment-73111541
+https://github.com/dmacvicar/terraform-provider-libvirt/issues/446
+https://ostechnix.com/solved-cannot-access-storage-file-permission-denied-error-in-kvm-libvirt/
+https://github.com/dmacvicar/terraform-provider-libvirt/issues/546#issuecomment-612983090
+
+
+
 License
 This code is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit. If you find any issues, please feel free to submit an issue or pull request.
 
