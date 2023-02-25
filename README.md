@@ -12,16 +12,15 @@ Before running the script and cluster.yml file, you'll need to:
 5. Have RKE installed on your machine
 
 ## Usage
-Creating the Libvirt VMs
 To create the Libvirt VMs:
 
 1. Clone this repository to your local machine
 2. Navigate to the cloned directory
 3. Modify the variables.tf file with your desired configuration options (such as the number of VMs, the VM names, etc.)
 4. Populate the cloud-init config with a password
-5. Run terraform init to initialize the provider
-6. Run terraform plan to preview the changes that Terraform will make
-7 Run terraform apply to apply the changes and create the VMs
+5. Run **terraform init** to initialize the provider
+6. Run **terraform plan** to preview the changes that Terraform will make
+7 Run **terraform apply** to apply the changes and create the VMs
 8. After running the script, you should see the new VMs in your Libvirt manager.
 
 Creating the RKE Cluster
