@@ -39,8 +39,11 @@ Caveats:
 2. I ran into a few issues with the libvirt provider, here are the links to those issues (If you run into any).
 
 https://github.com/simon3z/virt-deploy/issues/8#issuecomment-73111541
+
 https://github.com/dmacvicar/terraform-provider-libvirt/issues/446
+
 https://ostechnix.com/solved-cannot-access-storage-file-permission-denied-error-in-kvm-libvirt/
+
 https://github.com/dmacvicar/terraform-provider-libvirt/issues/546#issuecomment-612983090
 
 
