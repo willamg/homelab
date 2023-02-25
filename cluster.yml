@@ -1,0 +1,22 @@
+nodes:
+    - address: 
+      user: root
+      role:
+        - controlplane
+        - etcd
+        - worker
+    - address: 
+      user: root
+      role:
+        - controlplane
+        - etcd
+        - worker
+    - address: 
+      user: root
+      role:
+        - controlplane
+        - etcd
+        - worker
+ignore_docker_version: true
+network:
+  plugin: none
