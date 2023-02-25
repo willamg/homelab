@@ -1,6 +1,6 @@
 # Homelab for testing out various Kubernetes deployments
 
-This repository provides a Terraform script to create 3 Libvirt virtual machines using the dmacvicar/libvirt provider. The script will also install CentOS 8 Stream on each VM. Additionally, there is a cluster.yml file that can be used to create an RKE cluster with these three VMs.
+This repository provides a Terraform script to create 3 Libvirt virtual machines using the dmacvicar/libvirt provider. The script will also install CentOS 8 Stream on each VM. Additionally, there is a cluster.yml file that can be used to create an RKE cluster with these three VMs.I also included a docker file for an FRRouting container, I used this to test peering my kubernetes cluster to an external router using [Kube-Router](https://github.com/cloudnativelabs/kube-router)
 
 ## Prerequisites
 Before running the script and cluster.yml file, you'll need to:
@@ -34,7 +34,7 @@ To create the RKE cluster with the three VMs:
 
 ## Caveats:
 
-1. There is no CNI specified in the RKE cluster.yml file, I did this on purpose. If you need a fun CNI to install checkout Kube-Router https://github.com/cloudnativelabs/kube-router
+1. There is no CNI specified in the RKE cluster.yml file, I did this on purpose. If you need a fun CNI to install checkout [Kube-Router](https://github.com/cloudnativelabs/kube-router)
 
 2. I ran into a few issues with the libvirt provider, here are the links to those issues (If you run into any).
 
