@@ -20,7 +20,7 @@ To create the Libvirt VMs:
 4. Populate the cloud-init config with a password
 5. Run **terraform init** to initialize the provider
 6. Run **terraform plan** to preview the changes that Terraform will make
-7 Run **terraform apply** to apply the changes and create the VMs
+7. Run **terraform apply** to apply the changes and create the VMs
 8. After running the script, you should see the new VMs in your Libvirt manager.
 
 Creating the RKE Cluster
