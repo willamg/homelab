@@ -51,4 +51,4 @@ To create the RKE cluster with the three VMs:
 This code is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit. If you find any issues, please feel free to submit an issue or pull request.
 
 ## Acknowledgments
-Thanks to dmacvicar for providing the libvirt Terraform provider, and to Rancher for providing RKE.
+Thanks to dmacvicar for providing the libvirt Terraform provider, and to Rancher for providing RKE. Thanks Fred for the frrouter docker container inspiration!
